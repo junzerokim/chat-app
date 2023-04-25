@@ -10,7 +10,6 @@ const style = {
 
 const SendMessage = ({ scroll }) => {
   const [input, setInput] = useState('');
-  console.log(auth);
 
   const sendMessage = async (e) => {
     e.preventDefault();
