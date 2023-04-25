@@ -8,7 +8,7 @@ const style = {
 const LogOut = () => {
   return (
     <button onClick={() => auth.signOut()} className={style.button}>
-      LogOut
+      Logout
     </button>
   );
 };
